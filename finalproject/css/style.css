@@ -387,6 +387,18 @@ footer{
 	background-color: rgba(64,81,51,1);
 }
 
+.color-40 {
+	background-color: rgba(107,107,107,1);
+}
+
+.color-41 {
+	background-color: rgba(243,243,243,1);
+}
+
+.color-42 {
+	background-color: rgba(88,121,208,1);
+}
+
 .light-color {
 	color: rgba(0,0,0,1);	
 }
