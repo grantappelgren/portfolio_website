@@ -422,6 +422,11 @@ table td {
 	text-align: center;
 }
 
+.description-center {
+	display: inline-block;
+	text-align: left;
+}
+
 .fa-plus:hover {
 	color: rgba(255,255,255,1)
 }
