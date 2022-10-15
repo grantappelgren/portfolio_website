@@ -72,6 +72,10 @@ footer{
     text-align: center;
 }
 
+.dropdown {
+	z-index: 1;
+}
+
 .dropdown-menu {
 	background-color: rgba(99,121,156,1.00);
 }
@@ -479,4 +483,201 @@ table td {
 	.dropdown-item {
 		text-align: center;
 	}
+}
+
+.hidden {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 900ms;
+}
+
+.show {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+}
+
+.grid1:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.grid1:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.grid1:nth-child(4) {
+	transition-delay: 900ms;
+}
+
+.grid1:nth-child(5) {
+	transition-delay: 1200ms;
+}
+
+.grid2:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.grid2:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.grid2:nth-child(4) {
+	transition-delay: 900ms;
+}
+
+.education-logo:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.education-logo:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.education-logo:nth-child(4) {
+	transition-delay: 900ms;
+}
+
+.education-logo:nth-child(5) {
+	transition-delay: 1200ms;
+}
+
+.tools:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.tools:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.tools:nth-child(4) {
+	transition-delay: 900ms;
+}
+
+.experience-logo:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.experience-logo:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.experience-logo:nth-child(4) {
+	transition-delay: 900ms;
+}
+
+.anchor-logo:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.anchor-logo:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.social:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.social:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.menu:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.menu:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.anchor-shirt:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.level10-logo:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.level10-sticker:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.level10-shirt:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.level10-shirt:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.movaglobes:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.weathercheck-logo:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.weathercheck-logo:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.weathercheck-prototype:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.weathercheck-app:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.blackjackstrategy-logo:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.blackjackstrategy-logo:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.blackjackstrategy-prototype:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.blackjackstrategy-app:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.festivereviewer-logo:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.festivereviewer-logo:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.festivereviewer-logo:nth-child(4) {
+	transition-delay: 900ms;
+}
+
+.festivereviewer-logo:nth-child(5) {
+	transition-delay: 1200ms;
+}
+
+.festivereviewer-website:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.festivereviewer-website:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.festivereviewer-website:nth-child(4) {
+	transition-delay: 900ms;
+}
+
+.ecommerce-wireframe:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.ecommerce-mockup:nth-child(2) {
+	transition-delay: 300ms;
 }

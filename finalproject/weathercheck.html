@@ -61,12 +61,12 @@
 		</div>
 	</nav>
 	
-	<div class="project-title mb-5">
+	<div class="project-title mb-5 hidden">
 		<p>WEATHER CHECK</p>
 	</div>
 	
 	<div id="project" class="container">
-      <div class="d-flex flex-column flex-lg-row ml-5">
+      <div class="d-flex flex-column flex-lg-row ml-5 hidden">
         <div class="container col-sm-12 col-lg-9 mr-5 pr-5 mb-4">
 		  <h4 class="mb-4">About the Project</h4>
           <p class="mb-4">Weather Check is a single-page web-application that can be accessed via mobile device or desktop to check the weather. It is powered by the Open Weather Map API. For a college project, I created the Layout and Design for the application. Pre-production was required to include a mood board and color scheme, with production needing to include logo and logotype, mobile app icon, and page designs. The objective was to design tool with an inviting and straightforward interface that would appeal to the public and encourage use. Inspired by YouTube instructor <a class="website" href="https://www.youtube.com/c/DaveGrayTeachesCode" target="_blank">Dave Gray</a>, I decided to take the project a step further and develop the design into a fully-functional application. As a web-application, certain elements such as the logo, mobile app icon, and splash page were designed to be included if a native or hybrid mobile-application were to be built in the future.</p>
@@ -87,7 +87,7 @@
       </div>
 		
 	  <div class="d-flex flex-lg-row mt-5 ml-5 mr-5">
-        <div class="container mb-4">
+        <div class="container mb-4 hidden">
 		  <h4 class="mb-4">Visual Identity &amp; Mood Board</h4>
 		  <div class="image-center">
           	<img class="col-12 col-md-8 p-0 mb-4" src="images/weather_check_mood_board.jpg" alt="WEATHER CHECK - MOOD BOARD">
@@ -96,7 +96,7 @@
 		</div>
       </div>
 		
-	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mb-4">
+	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mb-4 hidden">
         <div class="container col-sm-12 col-lg-6 mb-4 mr-5 pr-5">
 			<div class="column">
 		  		<h4 class="mb-4">Typography</h4>
@@ -130,22 +130,30 @@
       </div>
 		
 	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-        <div class="container mb-4">
+        <div class="container mb-4 hidden">
 		  <h4 class="mb-4">Logo</h4>
 		  <div class="image-center">
 			<div>
           		<img class="col-12 col-md-5 mb-4" src="images/weather_check_full_logo.png" alt="WEATHER CHECK - FULL LOGO">
 			</div>
-			<img class="col-10 col-md-4 mt-2 mb-4" src="images/weather_check_logomark.png" alt="WEATHER CHECK - LOGOMARK">
-			<i class="fa fa-2x fa-plus m-3"></i>
-		  	<img class="col-10 col-md-4 mb-4" src="images/weather_check_logotype.png" alt="WEATHER CHECK - LOGOTYPE">
+			<div>
+				<div class="weathercheck-logo hidden">
+					<img class="col-10 col-md-4 mt-2 mb-4" src="images/weather_check_logomark.png" alt="WEATHER CHECK - LOGOMARK">
+				</div>
+				<div class="weathercheck-logo hidden">
+					<i class="fa fa-2x fa-plus m-3"></i>
+				</div>
+				<div class="weathercheck-logo hidden">
+		  			<img class="col-10 col-md-4 mb-4" src="images/weather_check_logotype.png" alt="WEATHER CHECK - LOGOTYPE">
+				</div>
+			</div>
 			<p class="col-12 col-md-8 mb-4 p-0 description-center">Weather has a large variety of measurements, but the most frequently checked is temperature. To ensure people would immediately recognize the logo as pertaining to weather, I decided to use a thermometer connecting sun and snowflake icons to represent high and low temperatures. At the base of the logomark is the logotype written in a typeface that has a vertically-stretched aesthetic, giving it a similar quality to the thermometer.</p>
 		  </div>
         </div>
       </div>
 	
 	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-        <div class="container mb-4">
+        <div class="container mb-4 hidden">
 		  <h4 class="mb-4">Mobile App Icon</h4>
 		  <div class="image-center">
           	<img class="col-12 col-md-5 mb-4" src="images/weather_check_mobile_app_icon.png" alt="WEATHER CHECK - MOBILE APP ICON">
@@ -155,7 +163,7 @@
       </div>
 	  
 	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-        <div class="container mb-4">
+        <div class="container mb-4 hidden">
 		  <h4 class="mb-4">Splash Page</h4>
 		  <div class="image-center">
           	<img class="col-10 col-md-6 col-lg-4 p-0 mb-4" src="images/weather_check_splash_page.jpg" alt="WEATHER CHECK - SPLASH PAGE">
@@ -165,7 +173,7 @@
       </div>
 	
 	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-        <div class="container mb-4">
+        <div class="container mb-4 hidden">
 		  <h4 class="mb-4">Vector Art</h4>
 			  <div class="image-center">
 				<img class="col-8 col-md-3 mb-4" src="images/weather_check_clear_sky_day.png" alt="CLEAR SKY DAY ICON">
@@ -185,30 +193,30 @@
       </div>	
 		
 	    <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-          <div class="container mb-4">
+          <div class="container mb-4 hidden">
 		    <h4 class="mb-4">Prototype &#38 Demo (Save "Cairo, EG" as home)</h4>
 		    <div class="image-center">
-          	  <a href="https://xd.adobe.com/view/276fef6f-b5e3-4c6b-b0be-13d5033e7fe6-723c/?fullscreen" target="_blank"><img class="col-10 col-md-6 col-lg-4 p-0 mb-4" src="images/weather_check_prototype.jpg" alt="WEATHER CHECK - PROTOTYPE"></a>
-			</div>
-			<div class="image-center video-container">
-          	<iframe class="col-12 p-0 mb-4" frameBorder="0" src="https://www.youtube.com/embed/af40wrU1CTc" allow="autoplay"></iframe> 
-		  	</div>
-			<div class="image-center">
+          	  <div class="weathercheck-prototype hidden">
+				<a href="https://xd.adobe.com/view/276fef6f-b5e3-4c6b-b0be-13d5033e7fe6-723c/?fullscreen" target="_blank"><img class="col-10 col-md-6 col-lg-4 p-0 mb-4" src="images/weather_check_prototype.jpg" alt="WEATHER CHECK - PROTOTYPE"></a>
+			  </div>
+			  <div class="video-container weathercheck-prototype hidden">
+          		<iframe class="col-12 p-0 mb-4" frameBorder="0" src="https://www.youtube.com/embed/af40wrU1CTc" allow="autoplay"></iframe> 
+		  	  </div>
 			  <p class="col-12 col-md-10 mb-4 p-0 description-center">A center-aligned app with a tiered display was the foundation of the design. A seach bar used to change the location, as well as the current location shown in large text, highlights the importance of both elements. Beneath the location is an icon for the current weather condition, along with a description of said condition in case the icon is not clear. Weather is very complex, so to prevent a cluttered screen, I made sure to selectively include only frequently-used information in the application. Staying true to the most common measurement of weather being temperature, current temperature is front-and-center with high and low bounds below. Other general measurements follow before arriving at the six-day forecast. Each day makes up a column that clearly provides the user with a condition icon and the predicted high and low temperature. An imperial-to-metric degree toggle button allows users to conveniently customize the tool with ease. With an ever-changing background depending on the current weather condition, having a darkened mask background for the body allows for better readability. A nav-bar sits at the bottom of the screen, giving users the ability to check the weather at either their current or home location, set a new home location, or refresh the page.</p>
 			</div>
 		  </div>
         </div>
 		
 		<div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-          <div class="container mb-5">
+          <div class="container mb-5 hidden">
 		    <h4 class="mb-4">Complete Application &#38 Demo</h4>
 		    <div class="image-center">
-			  <a href="https://illustrious-puffpuff-2fffc4.netlify.app/" target="_blank"><img class="col-10 col-md-6 col-lg-4 p-0 mb-4" src="images/weather_check_page_with_data.jpg" alt="WEATHER CHECK - COMPLETED APPLICATION PAGE"></a>
-		    </div>
-			<div class="image-center video-container">
-          	<iframe class="col-12 p-0 mb-4" frameBorder="0" src="https://www.youtube.com/embed/MQpXLNpi2pI" allow="autoplay"></iframe> 
-		  	</div>
-			<div class="image-center">
+			  <div class="weathercheck-app hidden">
+			  	<a href="https://illustrious-puffpuff-2fffc4.netlify.app/" target="_blank"><img class="col-10 col-md-6 col-lg-4 p-0 mb-4" src="images/weather_check_page_with_data.jpg" alt="WEATHER CHECK - COMPLETED APPLICATION PAGE"></a>
+			  </div>
+			  <div class="video-container weathercheck-app hidden">
+          		<iframe class="col-12 p-0 mb-4" frameBorder="0" src="https://www.youtube.com/embed/MQpXLNpi2pI" allow="autoplay"></iframe> 
+		  	  </div>
 			  <p class="col-12 col-md-10 mb-4 p-0 description-center">I successfully replicated the prototype during production, with the functionality and UX developed as intended. Only slight changes to text styling and the nav-bar were made. Overall, the application meets the goal of being both informational and pleasant to use.</p>  
 			</div>
           </div>
@@ -225,6 +233,8 @@
 	<script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+
 	
 </body>
 	

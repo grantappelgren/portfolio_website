@@ -61,12 +61,12 @@
 		</div>
 	</nav>
 	
-	<div class="project-title mb-5">
+	<div class="project-title mb-5 hidden">
 		<p>E-COMMERCE</p>
 	</div>
 	
 	<div id="project" class="container">
-      <div class="d-flex flex-column flex-lg-row ml-5">
+      <div class="d-flex flex-column flex-lg-row ml-5 hidden">
         <div class="container col-sm-12 col-lg-9 mr-5 pr-5 mb-4">
 		  <h4 class="mb-4">About the Project</h4>
           <p class="mb-4">E-commerce is a web-application product-page mockup for a camera company's online store. For a case study assigned as part of a job-application, I created a mockup for a product-page of a camera company's website. The mockup was required to contain sections for a navigation menu, five hero images, an item description, customer reviews, shipping and warranty information, an option to subscribe to the company newsletter, and a footer. The design needed to be unique, but not too complex for developers to produce.</p>
@@ -85,14 +85,14 @@
       </div>
 		
 	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-        <div class="container mb-4">
+        <div class="container mb-4 hidden">
 		  <h4 class="mb-4">Visual Identity</h4>
           <p class="mb-4"> The photography industry is generally classy and professional, with cameras and associated equipment being extremely fragile and nuanced. To align with this, I wanted the page design to be clean, sharp, and serious. Realizing that there would be a significant amount of text spread throughout the page, applying balance, separation, and visual hierarchy was going to be important. Rather than displaying product images in a basic static format, I viewed this as an opportunity to incorporate interactivity, movement, and further implement an elegant showcase look-and-feel to the page.
 		  </p>
         </div>
       </div>
 		
-	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mb-4">
+	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mb-4 hidden">
         <div class="container col-sm-12 col-lg-6 mb-4 mr-5 pr-5">
 			<div class="column">
 		  		<h4 class="mb-4">Typography</h4>
@@ -123,8 +123,12 @@
         <div class="container mb-4">
 		  <h4 class="mb-4">Wireframes</h4>
 		  <div class="image-center">
-          	<img class="col-10 col-md-6 col-lg-4 mb-4" src="images/ecommerce_wireframe_mobile.png" alt="E-COMMERCE - WIREFRAME MOBILE">
-			<img class="col-12 col-md-10 col-lg-10 p-0 mb-4" src="images/ecommerce_wireframe_desktop.png" alt="E-COMMERCE - WIREFRAME DESKTOP">
+			<div class="ecommerce-wireframe hidden">
+          		<img class="col-10 col-md-6 col-lg-4 mb-4" src="images/ecommerce_wireframe_mobile.png" alt="E-COMMERCE - WIREFRAME MOBILE">
+			</div>
+			<div class="ecommerce-wireframe hidden">
+				<img class="col-12 col-md-10 col-lg-10 p-0 mb-4" src="images/ecommerce_wireframe_desktop.png" alt="E-COMMERCE - WIREFRAME DESKTOP">
+			</div>
 			<p class="col-12 col-md-10 mb-4 p-0 description-center">A split 2-column design that condenses down to 1-column as the user's screen size decreases allows for a balanced page. This adjustment caters to different device widths, creating balanced designs that display the same content and economically use the alloted space. A top-aligned nav-bar and bottom-aligned footer house necessary links to redirect users to relevant pages. In both formats, the product name is centered above all other content, which is strategically placed below or adjacent based on importance. A rotating carousel for product hero images brings animation and smooth consistency that is reminiscent of an automobile show-room display. To give depth to the carousel, image opacity decreases as it moves further away. Horizontal lines are placed beneath section titles to create separation and consistency. The only major difference from the mobile to desktop design is the location of price on the page. It was moved beneath the carousel in the desktop design to push the images up, thereby adding more balance to the page.
 			</p>
 		  </div>
@@ -132,11 +136,15 @@
       </div>
 	
 	  <div class="d-flex flex-column flex-lg-row mt-5 ml-5 mr-5">
-        <div class="container mb-5">
+        <div class="container mb-5 hidden">
 		  <h4 class="mb-4">Mockups</h4>
 		  <div class="image-center">
-          	<img class="col-10 col-md-6 col-lg-4 mb-4" src="images/ecommerce_mockup_mobile.jpg" alt="E-COMMERCE - MOCKUP MOBILE">
-			<img class="col-12 col-md-10 col-lg-10 p-0 mb-4" src="images/ecommerce_mockup_desktop.jpg" alt="E-COMMERCE - MOCKUP DESKTOP">
+			<div class="ecommerce-mockup hidden">
+          		<img class="col-10 col-md-6 col-lg-4 mb-4" src="images/ecommerce_mockup_mobile.jpg" alt="E-COMMERCE - MOCKUP MOBILE">
+			</div>
+			<div class="ecommerce-mockup hidden">
+				<img class="col-12 col-md-10 col-lg-10 p-0 mb-4" src="images/ecommerce_mockup_desktop.jpg" alt="E-COMMERCE - MOCKUP DESKTOP">
+			</div>
 			<p class="col-12 col-md-10 mb-4 p-0 description-center">The product-page mockup effectively meets the case study specifications and provides a nice foundation that other pages of the web-application can follow to create a cohesive online shopping experience.
 			</p>
 		  </div>
@@ -154,6 +162,8 @@
 	<script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+
 	
 </body>
 	
