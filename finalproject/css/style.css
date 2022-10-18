@@ -458,6 +458,28 @@ table td {
 	text-decoration: none;
 }
 
+.navbar-collapse {
+	z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-brand.abs {
+		margin-top: 2.5rem;
+	}
+	.navbar-toggler {
+		position: absolute;
+    	width: auto;
+		margin-top: 2.5rem;
+	}
+	.navbar-collapse {
+		position: absolute;
+    	width: 40%;
+		top: 4rem;
+		background-color: rgba(17,28,44,1);
+		z-index: 1;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.navbar-brand.abs {
 		display: none;
@@ -468,7 +490,7 @@ table td {
     	left: 50%;
     	transform: translateX(-50%);
 		text-align: center;
-		margin-top: 3rem;
+		margin-top: 2.5rem;
 	}
 	.navbar-collapse {
 		position: absolute;
@@ -496,6 +518,12 @@ table td {
 	opacity: 1;
 	filter: blur(0);
 	transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+	.no-shift {
+		transform: translateX(-50%);
+	}
 }
 
 .grid1:nth-child(2) {
