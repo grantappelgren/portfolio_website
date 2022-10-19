@@ -59,6 +59,25 @@ footer{
   	text-transform: uppercase;
 }
 
+.mobile-brand.abs {
+    color: rgba(255,255,255,1);
+  	font-weight: 500;
+  	letter-spacing: 0.15em;
+  	text-transform: uppercase;
+	font-size: 30px;
+	position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.mobile-brand.abs {
+		display: none;
+	}
+}
+
 .navbar-brand.abs {
     color: rgba(255,255,255,1);
   	font-weight: 500;
@@ -70,6 +89,10 @@ footer{
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 .dropdown {
