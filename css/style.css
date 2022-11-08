@@ -426,6 +426,26 @@ a:hover {
 	background-color: rgba(88,121,208,1);
 }
 
+.color-43 {
+	background-color: rgba(227,67,62,1);
+}
+
+.color-44 {
+	background-color: rgba(150,200,90,1);
+}
+
+.color-45 {
+	background-color: rgba(96,150,61,1);
+}
+
+.color-46 {
+	background-color: rgba(114,126,188,1);
+}
+
+.color-47 {
+	background-color: rgba(87,0,112,1);
+}
+
 .light-color {
 	color: rgba(0,0,0,1);	
 }
@@ -565,6 +585,10 @@ table td {
 	transition-delay: 1200ms;
 }
 
+.grid1:nth-child(6) {
+	transition-delay: 1500ms;
+}
+
 .grid2:nth-child(2) {
 	transition-delay: 300ms;
 }
@@ -575,6 +599,86 @@ table td {
 
 .grid2:nth-child(4) {
 	transition-delay: 900ms;
+}
+
+.sumayyahs_refuge_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.sumayyahs_refuge_typography_and_colors:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.the_anchor_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.the_anchor_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.level_10_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.level_10_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.echo_drop_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.echo_drop_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.mova_globes_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.mova_globes_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.mental_health_suggestions_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.mental_health_suggestions_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.weather_check_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.weather_check_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.blackjack_strategy_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.blackjack_strategy_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.festive_reviewer_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.festive_reviewer_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.ecommerce_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.ecommerce_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
 }
 
 .education-logo:nth-child(2) {
