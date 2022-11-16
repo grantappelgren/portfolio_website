@@ -717,6 +717,10 @@ table td {
 	transition-delay: 600ms;
 }
 
+.experience-logo:nth-child(4) {
+	transition-delay: 900ms;
+}
+
 .anchor-logo:nth-child(2) {
 	transition-delay: 300ms;
 }
