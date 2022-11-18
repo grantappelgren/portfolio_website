@@ -112,6 +112,16 @@ a:hover {
 	color: rgba(255,255,255,1);
 }
 
+.dropdown-category {
+	color: rgba(212,138,122,1);
+	font-weight: 500;
+}
+
+.dropdown-category:hover {
+	background-color: rgba(99,121,156,1.00);
+	color: rgba(212,138,122,1);	
+}
+
 /* CASE STUDY GRID*/
 .row {
 	display: flex;
@@ -446,6 +456,38 @@ a:hover {
 	background-color: rgba(87,0,112,1);
 }
 
+.color-48 {
+	background-color: rgba(245, 249, 251, 1);
+}
+
+.color-49 {
+	background-color: rgba(229, 243, 252, 1);
+}
+
+.color-50 {
+	background-color: rgba(251, 208, 209, 1);
+}
+
+.color-51 {
+	background-color: rgba(249, 214, 170, 1);
+}
+
+.color-52 {
+	background-color: rgba(174, 215, 162, 1);
+}
+
+.color-53 {
+	background-color: rgba(146, 196, 234, 1);
+}
+
+.color-54 {
+	background-color: rgba(80, 143, 204, 1);
+}
+
+.color-55 {
+	background-color: rgba(196, 197, 223, 1);
+}
+
 .light-color {
 	color: rgba(0,0,0,1);	
 }
@@ -516,7 +558,7 @@ table td {
 	}
 	.navbar-collapse {
 		position: absolute;
-    	width: 40%;
+    	width: 50%;
 		top: 4rem;
 		background-color: rgba(17,28,44,1);
 		z-index: 1;
@@ -577,18 +619,6 @@ table td {
 	transition-delay: 600ms;
 }
 
-.grid1:nth-child(4) {
-	transition-delay: 900ms;
-}
-
-.grid1:nth-child(5) {
-	transition-delay: 1200ms;
-}
-
-.grid1:nth-child(6) {
-	transition-delay: 1500ms;
-}
-
 .grid2:nth-child(2) {
 	transition-delay: 300ms;
 }
@@ -597,7 +627,15 @@ table td {
 	transition-delay: 600ms;
 }
 
-.grid2:nth-child(4) {
+.grid4:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.grid4:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.grid4:nth-child(4) {
 	transition-delay: 900ms;
 }
 
