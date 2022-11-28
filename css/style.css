@@ -504,6 +504,18 @@ a:hover {
 	background-color: rgba(0, 0, 0, 1);
 }
 
+.color-60 {
+	background-color: rgba(189, 179, 135, 1);
+}
+
+.color-61 {
+	background-color: rgba(216, 88, 41, 1);
+}
+
+.color-62 {
+	background-color: rgba(61, 49, 138, 1);
+}
+
 .light-color {
 	color: rgba(0,0,0,1);	
 }
@@ -704,6 +716,22 @@ table td {
 }
 
 .mental_health_suggestions_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.buster_posey_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.buster_posey_typography_and_color:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.devin_booker_about:nth-child(2) {
+	transition-delay: 300ms;
+}
+
+.devin_booker_typography_and_color:nth-child(2) {
 	transition-delay: 300ms;
 }
 
