@@ -214,11 +214,12 @@ a:hover {
 	color: rgba(212,138,122,1);
 	font-size: 72px;
 	line-height: 1.25em;
+
 }
 
 .bio-detail {
 	color: rgba(255,255,255,1);
-	margin-left: 3em;
+
 }
 
 .fa {
@@ -657,6 +658,10 @@ table td {
 
 .grid3:nth-child(2) {
 	transition-delay: 300ms;
+}
+
+.grid3:nth-child(3) {
+	transition-delay: 600ms;
 }
 
 .grid4:nth-child(2) {
