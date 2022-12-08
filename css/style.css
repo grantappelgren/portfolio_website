@@ -4,6 +4,7 @@
 /* GENERAL*/
 body {
 	background: rgba(17,28,44,1);
+	width: 100%;
 }
 
 .background-light {
@@ -211,8 +212,8 @@ a:hover {
 }
 
 .greeting {
-	color: rgba(212,138,122,1);
-	font-size: 72px;
+	color: rgba(255,255,255,1);
+	font-size: 48px;
 	line-height: 1.25em;
 
 }
@@ -517,8 +518,16 @@ a:hover {
 	background-color: rgba(61, 49, 138, 1);
 }
 
+.color-63 {
+	background-color: rgba(28, 31, 38, 1)
+}
+
 .light-color {
 	color: rgba(0,0,0,1);	
+}
+
+#project {
+	width: 100%;
 }
 
 #project .italic {
