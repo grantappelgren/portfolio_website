@@ -3,7 +3,8 @@
 
 /* GENERAL*/
 body {
-	background: rgba(17,28,44,1);
+/*	background: rgba(17,28,44,1);*/
+	background: rgba(250,249,246,1);
 	width: 100%;
 }
 
@@ -18,7 +19,8 @@ h4 {
 }
 
 h5 {
-	color: rgba(99,121,156,1.00);
+/*	color: rgba(99,121,156,1.00);*/
+	color: rgba(17,28,44,1);
 	text-transform: uppercase;
 }
 
@@ -27,7 +29,8 @@ footer{
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	font-size: 12px;
-	color: rgba(73,80,87,1);
+/*	color: rgba(73,80,87,1);*/
+	color: rgba(17,28,44,0.5);
 	width: 100%;
 }
 
@@ -51,17 +54,32 @@ footer{
 }
 
 .statement, #resume p, ul, #project p{
-	color: rgba(255,255,255,1);
+/*	color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1);
 }
 
 /* NAVIGATION */
 .nav-item {
 	letter-spacing: 0.15em;
   	text-transform: uppercase;
+	color: rgba(17,28,44,1);
+}
+
+.nav-link {
+	color: rgba(17,28,44,1);
+}
+
+.nav-link:hover {
+	color: rgba(212,138,122,1);
+}
+
+.live {
+	color: rgba(212,138,122,1);
 }
 
 .mobile-brand.abs {
-    color: rgba(255,255,255,1);
+/*    color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1); 
   	font-weight: 500;
   	letter-spacing: 0.15em;
   	text-transform: uppercase;
@@ -80,7 +98,8 @@ footer{
 }
 
 .navbar-brand.abs {
-    color: rgba(255,255,255,1);
+/*    color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1);
   	font-weight: 500;
   	letter-spacing: 0.15em;
   	text-transform: uppercase;
@@ -101,16 +120,20 @@ a:hover {
 }
 
 .dropdown-menu {
-	background-color: rgba(99,121,156,1.00);
+/*	background-color: rgba(99,121,156,1.00);*/
+	background-color: rgba(17,28,44,1);
 }
 
 .dropdown-item {
-	color: rgba(255,255,255,1);
+/*	color: rgba(255,255,255,1);*/
+	color: rgba(250,249,246,1);
 }
 
 .dropdown-item:hover {
-	background-color: rgba(17,28,44,1);
-	color: rgba(255,255,255,1);
+/*	background-color: rgba(17,28,44,1);*/
+	background-color: rgba(250,249,246,1);
+/*	color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1);
 }
 
 .dropdown-category {
@@ -119,7 +142,7 @@ a:hover {
 }
 
 .dropdown-category:hover {
-	background-color: rgba(99,121,156,1.00);
+	background-color: rgba(17,28,44,1);
 	color: rgba(212,138,122,1);	
 }
 
@@ -212,19 +235,21 @@ a:hover {
 }
 
 .greeting {
-	color: rgba(255,255,255,1);
+/*	color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1);
 	font-size: 48px;
 	line-height: 1.25em;
 
 }
 
 .bio-detail {
-	color: rgba(255,255,255,1);
-
+/*	color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1);
 }
 
 .fa {
-	color: rgba(255,255,255,1);
+/*	color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1);
 }
 
 .fa:hover {
@@ -573,7 +598,8 @@ table td {
 }
 
 .website {
-	color: rgba(255,255,255,1);
+/*	color: rgba(255,255,255,1);*/
+	color: rgba(17,28,44,1);
 }
 
 .website:hover {
@@ -598,11 +624,15 @@ table td {
 		position: absolute;
     	width: 50%;
 		top: 4rem;
-		background-color: rgba(17,28,44,1);
+/*		background-color: rgba(17,28,44,1);*/
+		background-color: rgba(250,249,246,1);
 		z-index: 1;
 	}
+	.navbar-toggler-icon {
+		background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 17, 28, 44%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+	}
 }
-
+	
 @media screen and (max-width: 600px) {
 	.navbar-brand.abs {
 		display: none;
@@ -622,7 +652,8 @@ table td {
     	transform: translateX(-50%);
 		text-align: center;
 		top: 4rem;
-		background-color: rgba(17,28,44,1);
+/*		background-color: rgba(17,28,44,1);*/
+		background-color: rgba(250,249,246,1);
 		z-index: 1;
 	}
 	.dropdown-item {
