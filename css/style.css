@@ -44,6 +44,10 @@ footer{
 	margin-top: 75px;
 }
 
+#profile {
+	width: 375px;
+}
+
 #slogan {
 	font-family: Michroma, sans-serif;
 	margin-top: 30px;
@@ -87,7 +91,7 @@ footer{
 /*    color: rgba(255,255,255,1);*/
 	color: rgba(17,28,44,1); 
   	font-weight: 500;
-  	letter-spacing: 0.15em;
+  	letter-spacing: 0.12em;
   	text-transform: uppercase;
 	font-size: 30px;
 	position: absolute;
@@ -107,7 +111,7 @@ footer{
 /*    color: rgba(255,255,255,1);*/
 	color: rgba(17,28,44,1);
   	font-weight: 500;
-  	letter-spacing: 0.15em;
+  	letter-spacing: 0.12em;
   	text-transform: uppercase;
 	font-size: 30px;
 	position: absolute;
@@ -236,8 +240,12 @@ a:hover {
 }
 
 /* ABOUT */
+.profile {
+	margin-top: 30px;
+}
+
 .bio {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .greeting {
@@ -691,6 +699,38 @@ table td {
 }
 
 .grid1:nth-child(3) {
+	transition-delay: 600ms;
+}
+
+.grid1:nth-child(4) {
+	transition-delay: 300ms;
+}
+
+.grid1:nth-child(5) {
+	transition-delay: 600ms;
+}
+
+.grid1:nth-child(6) {
+	transition-delay: 900ms;
+}
+
+.grid1:nth-child(7) {
+	transition-delay: 300ms;
+}
+
+.grid1:nth-child(8) {
+	transition-delay: 600ms;
+}
+
+.grid1:nth-child(9) {
+	transition-delay: 900ms;
+}
+
+.grid1:nth-child(10) {
+	transition-delay: 300ms;
+}
+
+.grid1:nth-child(11) {
 	transition-delay: 600ms;
 }
 
