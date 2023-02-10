@@ -245,7 +245,7 @@ a:hover {
 }
 
 .bio {
-	margin-top: 40px;
+	margin-top: 110px;
 }
 
 .greeting {
@@ -259,6 +259,7 @@ a:hover {
 .bio-detail {
 /*	color: rgba(255,255,255,1);*/
 	color: rgba(17,28,44,1);
+	margin-top: 10px;
 }
 
 .fa {
