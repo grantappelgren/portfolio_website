@@ -735,6 +735,14 @@ table td {
 	transition-delay: 600ms;
 }
 
+.grid1:nth-child(12) {
+	transition-delay: 900ms;
+}
+
+.grid1:nth-child(13) {
+	transition-delay: 300ms;
+}
+
 .grid2:nth-child(2) {
 	transition-delay: 300ms;
 }
