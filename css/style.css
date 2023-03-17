@@ -39,7 +39,7 @@ footer{
 }
 
 /* LOGO & SLOGAN*/
-#logo-slogan, #profile {
+#logo-slogan {
 	text-align: center;
 	margin-top: 75px;
 }
@@ -240,12 +240,14 @@ a:hover {
 }
 
 /* ABOUT */
+/*
 .profile {
 	margin-top: 30px;
 }
+*/
 
 .bio {
-	margin-top: 110px;
+	margin-top: 10px;
 }
 
 .greeting {
