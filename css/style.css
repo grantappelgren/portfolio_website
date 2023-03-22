@@ -156,6 +156,12 @@ a:hover {
 	color: rgba(212,138,122,1);	
 }
 
+.btn {
+	display: inline-block;
+	letter-spacing: 0.15em;
+	font-size: 1.05em;
+}
+
 /* CASE STUDY GRID*/
 .row {
 	display: flex;
@@ -264,12 +270,17 @@ a:hover {
 	margin-top: 10px;
 }
 
-.fa {
+.fa, .email {
 /*	color: rgba(255,255,255,1);*/
 	color: rgba(17,28,44,1);
 }
 
 .fa:hover {
+	color: rgba(212,138,122,1);
+	transition: 0.5s;
+}
+
+.email:hover {
 	color: rgba(212,138,122,1);
 	transition: 0.5s;
 }
