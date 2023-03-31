@@ -91,14 +91,15 @@ footer{
 /*    color: rgba(255,255,255,1);*/
 	color: rgba(17,28,44,1); 
   	font-weight: 500;
-  	letter-spacing: 0.12em;
+/*  	letter-spacing: 0.12em;*/
   	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	position: absolute;
     width: auto;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+	font-family: Michroma, sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -111,14 +112,15 @@ footer{
 /*    color: rgba(255,255,255,1);*/
 	color: rgba(17,28,44,1);
   	font-weight: 500;
-  	letter-spacing: 0.12em;
+/*  	letter-spacing: 0.12em;*/
   	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	position: absolute;
     width: auto;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+	font-family: Michroma, sans-serif;
 }
 
 a:hover {
@@ -762,6 +764,30 @@ table td {
 
 .grid2:nth-child(3) {
 	transition-delay: 600ms;
+}
+
+.grid2:nth-child(4) {
+	transition-delay: 300ms;
+}
+
+.grid2:nth-child(5) {
+	transition-delay: 600ms;
+}
+
+.grid2:nth-child(6) {
+	transition-delay: 900ms;
+}
+
+.grid2:nth-child(7) {
+	transition-delay: 300ms;
+}
+
+.grid2:nth-child(8) {
+	transition-delay: 600ms;
+}
+
+.grid2:nth-child(9) {
+	transition-delay: 900ms;
 }
 
 .grid3:nth-child(2) {
